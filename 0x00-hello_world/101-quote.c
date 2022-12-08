@@ -3,7 +3,7 @@
 /**
  * main - Main entry point
  * This project uses putchar
- * Retur: print integer
+ * Return: print integer
 */
 
 int main(void)
