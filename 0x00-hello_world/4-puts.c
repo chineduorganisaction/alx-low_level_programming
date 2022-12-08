@@ -9,7 +9,7 @@
 int main(void)
 {
 	char show[52];
-	strcpy(show, "\"Programming is like building a muiltilingual puzzle");
+	show =  "\"Programming is like building a muiltilingual puzzle";
 	puts(show);
 	return (0);
 }
