@@ -8,6 +8,7 @@
 
 int main(void)
 {
-	puts("\"Programming is like building a muiltilingual puzzle");
+	char show[52] = "\"Programming is like building a muiltilingual puzzle";
+	puts(show);
 	return (0);
 }
