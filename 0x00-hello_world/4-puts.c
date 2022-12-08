@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/*
- * main - Entry point
+/**
+ * main - Main Entry point
  * This project shows how to use puts()
- * return print integer
+ * Return: print integer
 */
 
 int main(void)
