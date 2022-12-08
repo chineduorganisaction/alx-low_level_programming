@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char show[52];
+	char show[];
 	show =  "\"Programming is like building a muiltilingual puzzle";
 	puts(show);
 	return (0);
