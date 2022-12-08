@@ -2,7 +2,7 @@
 /**
  * main - Main entry point
  *
- * return: print integer
+ * Return: print integer
 */
 
 int main(void)

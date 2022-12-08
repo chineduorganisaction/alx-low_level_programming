@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Main Entry point
  * This project shows how to use puts()
@@ -8,8 +7,6 @@
 
 int main(void)
 {
-	char show[];
-	show =  "\"Programming is like building a muiltilingual puzzle";
-	puts(show);
+	puts("\"Programming is like building a muiltilingual puzzle);
 	return (0);
 }
