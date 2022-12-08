@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-/* This project shows how to use puts */
+/* 
+ * This project shows how to use puts 
+*/
 
 int main(void)
 {
