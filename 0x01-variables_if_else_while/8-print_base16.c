@@ -15,7 +15,7 @@ int main(void)
 		putchar('0' + hex);
 		hex++;
 	}
-	while (res => 'f')
+	while (res <= 'f')
 	{
 		putchar(res);
 		res++;
