@@ -13,13 +13,13 @@ int main(void)
 	{
 		while (num < 10)
 		{
+			putchar('0' + comb);
 			putchar('0' + num);
 			num++;
+			putchar(',');
+			putchar(' ');
 		}
-		putchar('0' + comb);
 		comb++;
-		putchar(',');
-		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
