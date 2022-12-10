@@ -12,9 +12,9 @@ int main(void)
 	while (lower <= 'z')
 	{
 		++lower;
-		if (lower != 'e' && lower != 'q')
+		if (lower != 'f' && lower != 'r')
 		{
-			putchar(lower-1);
+			putchar(lower - 1);
 		}
 	}
 	putchar('\n');
