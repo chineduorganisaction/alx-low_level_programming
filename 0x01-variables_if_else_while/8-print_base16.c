@@ -8,7 +8,7 @@
 int main(void)
 {
 	int hex = 0;
-	char res 'a';
+	char res = 'a';
 
 	while (hex <= 10)
 	{
