@@ -9,14 +9,12 @@ int main(void)
 {
 	int comb = 0, num = 0;
 
-	while (comb < 10)
+	for (comb < 10; comb++)
 	{
-		while (num < 10)
+		for (num < 10; num++)
 		{
 			putchar('0' + comb);
 			putchar('0' + num);
-			num++;
-			comb++;
 			putchar(',');
 			putchar(' ');
 		}
