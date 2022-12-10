@@ -7,7 +7,11 @@
 
 int main(void)
 {
-	char lower = 'd';
-	putchar(lower);
+	char lower = 'a';
+	while (lower <= 'z')
+	{
+		putchar(lower);
+		lower++;
+	}
 	return (0);
 }
