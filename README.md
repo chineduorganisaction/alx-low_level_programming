@@ -1,1 +1,1 @@
-This is a hello world project in c
+This a loop project for variables
