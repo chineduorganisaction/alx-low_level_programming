@@ -11,22 +11,22 @@ int main(void)
 
 	while (comb < 10)
 	{
-		putchar(comb);
+		putchar('0' + comb);
 		while (num < 10)
 		{
 			if (num != comb)
 			{
-				putchar(num);
+				putchar('0' + num);
 				if (num != 89)
 				{
 					putchar(',');
-					pitchar(' ');
+					putchar(' ');
 				}
 				num++;
 			}
 		}
 		comb++;
 	}
-	putchar('\n);
+	putchar('\n');
 	return (0);
 }
