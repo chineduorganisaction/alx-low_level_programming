@@ -10,7 +10,7 @@ int main(void)
 	int hex = 0;
 	char res = 'a';
 
-	while (hex <= 10)
+	while (hex < 10)
 	{
 		putchar('0' + hex);
 		hex++;
