@@ -12,7 +12,7 @@ int main(void)
 	while (number < 10)
 	{
 		putchar('-');
-		nmuber++;
+		number++;
 	}
 	putchar('\n');
 	return (0);
