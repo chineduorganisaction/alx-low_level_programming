@@ -9,9 +9,9 @@ int main(void)
 {
 	int comb = 0, num = 0;
 
-	for (comb < 10; comb++)
+	for (comb < 10; comb++;)
 	{
-		for (num < 10; num++)
+		for (num < 10; num++;)
 		{
 			putchar('0' + comb);
 			putchar('0' + num);
