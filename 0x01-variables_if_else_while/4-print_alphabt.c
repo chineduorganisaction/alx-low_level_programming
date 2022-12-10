@@ -9,7 +9,7 @@ int main(void)
 {
 	char lower = 'a';
 
-	while (lower = 'z')
+	while (lower <= 'z')
 	{
 		lower++;
 		if (lower != 'e' && lower != 'q')
