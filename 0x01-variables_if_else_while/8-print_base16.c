@@ -11,12 +11,8 @@ int main(void)
 
 	while (hex <= 16)
 	{
+		hex = hex % 16;
 		putchar('0' + hex);
-		if (hex > 10)
-		{
-			hex = hex % 16;
-			putchar(hex);
-		}
 		hex++;
 	}
 	putchar('\n');
