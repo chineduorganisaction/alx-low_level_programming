@@ -8,6 +8,6 @@
 int main(void)
 {
 	char lower = 'D';
-	putchar("Transform %c to lowercase like this %c\n", lower, tolower(lower));
+	putchar(tolower(lower));
 	return (0);
 }
