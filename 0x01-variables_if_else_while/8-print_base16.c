@@ -8,12 +8,17 @@
 int main(void)
 {
 	int hex = 0;
+	char res 'a';
 
-	while (hex <= 16)
+	while (hex <= 10)
 	{
-		hex = hex % 16;
 		putchar('0' + hex);
 		hex++;
+	}
+	while (res => 'f')
+	{
+		putchar(res);
+		res++;
 	}
 	putchar('\n');
 	return (0);
