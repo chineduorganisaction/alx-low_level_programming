@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char lower = "D";
+	char lower = 'D';
 	putchar("Transform %c to lowercase like this %c\n", lower, tolower(lower));
 	return (0);
 }
