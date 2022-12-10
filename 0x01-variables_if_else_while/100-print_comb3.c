@@ -13,19 +13,13 @@ int main(void)
 	{
 		while (num < 10)
 		{
-			if (num != comb)
-			{
-				if (num != 89)
-				{
-					putchar('0' + num);
-					putchar(',');
-					putchar(' ');
-				}
-				num++;
-			}
+			putchar('0' + num);
+			numb++;
 		}
 		putchar('0' + comb);
 		comb++;
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
