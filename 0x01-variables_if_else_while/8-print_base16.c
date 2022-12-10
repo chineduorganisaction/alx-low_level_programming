@@ -7,11 +7,13 @@
 
 int main(void)
 {
-	int hex = 0;
+	int hex = 0, result;
 
 	while (hex <= 16)
 	{
-		putchar('0' + '%x', hex);
+		result = '%x' + hex;
+		putchar('0' + result);
+		hex++;
 	}
 	putchar('\n');
 	return (0);
