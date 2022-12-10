@@ -9,7 +9,7 @@ int main(void)
 {
 	int comb, num;
 
-	for(comb = 0; comb < 10; comb++)
+	for (comb = 0; comb < 10; comb++)
 	{
 		for (num = 0; num < 10; num++)
 		{
