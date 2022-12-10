@@ -11,7 +11,7 @@ int main(void)
 
 	while (hex <= 16)
 	{
-		result = '%x' + hex;
+		result = putchar('%x', hex);
 		putchar('0' + result);
 		hex++;
 	}
