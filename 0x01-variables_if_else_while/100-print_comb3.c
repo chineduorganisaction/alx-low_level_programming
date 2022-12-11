@@ -13,8 +13,10 @@ int main(void)
 	{
 		for (num = 0; num < 10; num++)
 		{
-			if (num != comb)
+			if (num == comb)
 			{
+				comb = comb + 1;
+
 				putchar('0' + comb);
 				putchar('0' + num);
 				putchar(',');
