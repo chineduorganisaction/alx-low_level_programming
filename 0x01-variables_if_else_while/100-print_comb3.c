@@ -15,8 +15,8 @@ int main(void)
 		{
 			if (num > comb)
 			{
-				putchar(num);
 				putchar(comb);
+				putchar(num);
 				if (num != 57 || comb != 56)
 				{
 					putchar(',');
