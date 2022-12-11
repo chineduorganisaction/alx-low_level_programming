@@ -9,18 +9,19 @@ int main(void)
 {
 	int comb, num;
 
-	for (comb = 0; comb < 10; comb++)
+	for (comb = 48; comb <= 56; comb++)
 	{
-		for (num = 0; num < 10; num++)
+		for (num = 49; num <= 57; num++)
 		{
-			if (num == (comb < 10))
+			if (num < comb)
 			{
-				comb = comb + 1;
-
-				putchar('0' + comb);
 				putchar('0' + num);
-				putchar(',');
-				putchar(' ');
+				putchar('0' + comb);
+				if (numb != 57 || comb != 56)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
