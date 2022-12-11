@@ -13,7 +13,7 @@ int main(void)
 	{
 		for (num = 0; num < 10; num++)
 		{
-			if (num == comb)
+			if (num == comb && num < 10)
 			{
 				comb = comb + 1;
 
