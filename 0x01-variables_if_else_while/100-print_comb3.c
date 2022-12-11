@@ -13,7 +13,7 @@ int main(void)
 	{
 		for (num = 49; num <= 57; num++)
 		{
-			if (num < comb)
+			if (num > comb)
 			{
 				putchar(num);
 				putchar(comb);
