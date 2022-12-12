@@ -9,23 +9,21 @@ int main(void)
 {
 	int n, m, o;
 
-	for (n = 47; n <= 55; n++)
+	for (n = 0; n < 8; n++)
 	{
-		for (m = 48; m <= 56; m++)
+		for (m = n + 1; m < 9; m++)
 		{
-			for (o = 49; o <= 57; o++)
+			for (o = m + 1; o < 10; o++)
 			{
-				if (o > (m > n) )
+				putchar((n % 10) + '0');
+				putchar((m % 10) + '0');
+				pitchar((o % 10) + '0');
+				if (n == 7 && m == 8 && o == 9)
 				{
-					putchar(n);
-					putchar(m);
-					putchar(o);
-					if (n != 47 || m != 48 || o != 49)
-					{
-						putchar(',');
-						putchar(' ');
-					}
+					continue;
 				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
