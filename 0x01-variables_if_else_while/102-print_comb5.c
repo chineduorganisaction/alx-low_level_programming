@@ -23,8 +23,9 @@ int main(void)
 
 					putchar(o + '0');
 					putchar(p + '0');
+					putchar(',');
+					putchar(' ');
 				}
-				putchar(',');
 			}
 		}
 	}
