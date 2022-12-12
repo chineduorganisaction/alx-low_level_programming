@@ -17,20 +17,15 @@ int main(void)
 			{
 				for (p = o + 1; p < 10; p++)
 				{
-					putchar((n % 10) + '0');
-					putchar((m % 10) + '0');
+					putchar(n + '0');
+					putchar(m + '0');
 					putchar(' ');
 
-					putchar((o % 10) + '0');
-					putchar((p % 10) + '0');
+					putchar(o + '0');
+					putchar(p + '0');
 				}
+				putchar(',');
 			}
-		if (n == 9 && m == 8 && o == 9 && p == 9)
-		{
-			continue;
-		}
-		putchar(',');
-		putchar(' ');
 		}
 	}
 	putchar('\n');
