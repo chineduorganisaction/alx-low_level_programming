@@ -24,13 +24,13 @@ int main(void)
 					putchar((o % 10) + '0');
 					putchar((p % 10) + '0');
 				}
-			if (n == 9 && m == 8 && o == 9 && p == 9)
-			{
-				continue;
 			}
-			putchar(',');
-			putchar(' ');
-			}
+		if (n == 9 && m == 8 && o == 9 && p == 9)
+		{
+			continue;
+		}
+		putchar(',');
+		putchar(' ');
 		}
 	}
 	putchar('\n');
