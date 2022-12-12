@@ -23,8 +23,11 @@ int main(void)
 
 					putchar(o + '0');
 					putchar(p + '0');
-					putchar(',');
-					putchar(' ');
+					if (n != 9 && m != 8 && o != 9 && p != 9)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
