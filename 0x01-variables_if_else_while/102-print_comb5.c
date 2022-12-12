@@ -11,7 +11,7 @@ int main(void)
 
 	for (n = 0; n < 10; n++)
 	{
-		for (m = n + 1; m < 9; m++)
+		for (m = n; m < 9; m++)
 		{
 			for (o = n; o < 10; o++)
 			{
@@ -24,12 +24,12 @@ int main(void)
 					putchar((o % 10) + '0');
 					putchar((p % 10) + '0');
 				}
-				if ( n == 9 && m == 8 && o == 9 && p == 9)
-				{
-					continue;
-				}
-				putchar(',');
-				putchar(' ');
+			if (n == 9 && m == 8 && o == 9 && p == 9)
+			{
+				continue;
+			}
+			putchar(',');
+			putchar(' ');
 			}
 		}
 	}
