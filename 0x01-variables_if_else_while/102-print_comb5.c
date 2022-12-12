@@ -17,14 +17,17 @@ int main(void)
 			{
 				for (p = m; p < 10; p++)
 				{
-					putchar(n + '0');
-					putchar(m + '0');
-					putchar(' ');
+					if (n && m != o && p)
+					{
+						putchar(n + '0');
+						putchar(m + '0');
+						putchar(' ');
 
-					putchar(o + '0');
-					putchar(p + '0');
-					putchar(',');
-					putchar(' ');
+						putchar(o + '0');
+						putchar(p + '0');
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
