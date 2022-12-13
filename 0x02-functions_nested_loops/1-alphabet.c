@@ -5,7 +5,7 @@
  * Return: print integer 0
  */
 
-int main(void)
+int print_alphabet(void)
 {
 	char letter;
 
