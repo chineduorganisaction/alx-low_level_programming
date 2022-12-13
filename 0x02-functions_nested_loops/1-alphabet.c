@@ -1,8 +1,7 @@
 #include "main.h"
 /**
- * main - main entry point
  *
- * print_alphabet: a void function
+ * print_alphabet - a void function
  *
  *
  */
