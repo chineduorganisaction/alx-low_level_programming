@@ -7,17 +7,18 @@
 
 void print_alphabet_x10(void)
 {
-	int num;
+	int num = 0;
 
 	char letter = 'a';
 
-	for (num = 0; num < 10; num++)
+	while (num < 10)
 	{
 		while (letter <= 'z')
 		{
 			_putchar(letter);
 			letter++;
 		}
+		num++;
 	}
 	_putchar('\n');
 }
