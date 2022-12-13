@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <main.h>
+#include "main.h"
+#define _PUTCHAR_H
 /**
  * main - Main is the entry point
  *
