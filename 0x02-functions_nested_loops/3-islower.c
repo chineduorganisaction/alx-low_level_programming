@@ -13,12 +13,24 @@ int main(void)
 	int r;
 
 	r = _islower('H');
-	_putchar('0' + r);
-	r = _islower('o');
-	_putchar('0' + r);
-	r = _islower(108);
-	_putchar('0' + r);
-
+	_putchar(r + '0');
 	_putchar('\n');
 	return (0);
+}
+
+int _islower(int c)
+{
+	char letter;
+
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		if (c == letter)
+		{
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
+	}
 }
