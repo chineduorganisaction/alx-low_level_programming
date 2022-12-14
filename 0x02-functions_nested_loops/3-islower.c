@@ -4,7 +4,7 @@
 /**
  * _islower - entry point
  *
- * c: is a initiator
+ * c - is a initiator
  *
  * Return: print integer at code end
  **/
@@ -17,7 +17,7 @@ int _islower(int c)
 	}
 	else
 	{
-		return (2);
+		return (0);
 	}
 	_putchar('\n');
 }
