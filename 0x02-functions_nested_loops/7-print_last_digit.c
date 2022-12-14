@@ -1,10 +1,7 @@
 #include "main.h"
 /**
  * print_last_digit - main entry point
- *
  * @n: parameter of variable
- * 
- *
  * Return: print integer answer
  **/
 
