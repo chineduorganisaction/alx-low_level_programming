@@ -10,22 +10,6 @@
 int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
-int _islower(int c)
-{
-	char letter;
-
-	for (letter = 'a'; letter <= 'z'; letter++)
-	{
-		if (c == letter)
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
-	}
-}
-
+int _islower(int c);
 
 #endif
