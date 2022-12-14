@@ -14,6 +14,7 @@ int main(void)
 
 	r = _islower('H');
 	_putchar(r + '0');
+
 	_putchar('\n');
 	return (0);
 }
@@ -21,16 +22,16 @@ int main(void)
 int _islower(int c)
 {
 	char letter;
-
+	
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		if (c == letter)
 		{
-			return (1);
+			return 1;
 		}
 		else
 		{
-			return (0);
+			return 0;
 		}
 	}
 }
