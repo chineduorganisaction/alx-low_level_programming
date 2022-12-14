@@ -18,11 +18,11 @@ int _islower(int c)
 	{
 		if (c == letter)
 		{
-			printf(1);
+			return (1);
 		}
 		else
 		{
-			printf(0);
+			return (0);
 		}
 	}
 }
