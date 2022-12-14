@@ -4,7 +4,7 @@
 /**
  * _islower - entry point
  *
- * c - is a initiator
+ * @c: is a parameter initiator
  *
  * Return: print integer at code end
  **/
