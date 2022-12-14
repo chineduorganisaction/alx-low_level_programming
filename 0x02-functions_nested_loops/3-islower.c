@@ -22,6 +22,8 @@ int main(void)
 int _islower(int c)
 {
 	char letter;
+
+	c = c + '0';
 	
 	for (letter = 'a'; letter <= 'z'; letter++)
 	{
@@ -34,4 +36,5 @@ int _islower(int c)
 			return 0;
 		}
 	}
+	return (0);
 }
