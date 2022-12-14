@@ -21,20 +21,13 @@ int main(void)
 
 int _islower(int c)
 {
-	char letter;
-
-	c = c + '0';
-	
-	for (letter = 'a'; letter <= 'z'; letter++)
+	if (c >= 97 && c <= 122)
 	{
-		if (c == letter)
-		{
-			_putchar(1 + '0');
-		}
-		else
-		{
-			_putchar(0 + '0');
-		}
+		_putchar(1 + '0');
+	}
+	else
+	{
+		_putchar(0 + '0');
 	}
 	return (0);
 }
