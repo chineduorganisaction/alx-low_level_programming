@@ -29,11 +29,11 @@ int _islower(int c)
 	{
 		if (c == letter)
 		{
-			return 1;
+			_putchar(1 + '0');
 		}
 		else
 		{
-			return 0;
+			_putchar(0 + '0');
 		}
 	}
 	return (0);
