@@ -4,6 +4,7 @@
 /**
  * _islower - entry point
  *
+ * c: is a initiator
  *
  * Return: print integer at code end
  **/
@@ -19,5 +20,4 @@ int _islower(int c)
 		_putchar(0 + '0');
 	}
 	_putchar('\n');
-	return (0);
 }
