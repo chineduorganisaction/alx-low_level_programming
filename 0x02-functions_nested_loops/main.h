@@ -14,16 +14,16 @@ int _islower(int c)
 {
 	char letter;
 
-	if (c == letter)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		for (letter = 'a'; letter <= 'z'; letter++)
+		if (c == letter)
 		{
 			return 1;
 		}
-	}
-	else
-	{
-		return 0;
+		else
+		{
+			return 0;
+		}
 	}
 }
 
