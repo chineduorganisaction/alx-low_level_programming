@@ -22,5 +22,6 @@ int multiple(void)
 			printf("%d", sum5);
 		}
 	}
+	printf("%d\n", sum3 + sum5);
 	return (0);
 }
