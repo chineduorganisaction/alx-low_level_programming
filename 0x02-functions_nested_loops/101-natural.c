@@ -5,7 +5,7 @@
  * Return: print an integer
  **/
 
-int multiple(void)
+int main(void)
 {
 	int n, sum3 = 0, sum5 = 0;
 
