@@ -18,14 +18,14 @@ void jack_bauer(void)
 				while (track <= 9)
 				{
 					_putchar('0' + hour);
-					hour++;
 					_putchar('0' + minute);
-					minute++;
 					_putchar(':');
 					_putchar('0' + second);
-					second++;
 					_putchar('0' + track);
 					track++;
+					second++;
+					minute++;
+					hour++;
 					_putchar('\n');
 				}
 			}
