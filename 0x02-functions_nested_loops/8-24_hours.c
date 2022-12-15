@@ -23,13 +23,13 @@ void jack_bauer(void)
 					_putchar('0' + second);
 					_putchar('0' + track);
 					track++;
-					second++;
-					minute++;
-					hour++;
 					_putchar('\n');
 				}
+				second++;
 			}
+			minute++;
 		}
+		hour++;
 	}
 	_putchar('\n');
 }
