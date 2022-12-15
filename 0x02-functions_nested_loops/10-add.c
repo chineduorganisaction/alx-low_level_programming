@@ -5,7 +5,7 @@
  * Return: prints an integer
  **/
 
-int add(a, b)
+int add(int a, int b)
 {
 	return (a + b);
 }
