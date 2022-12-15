@@ -21,7 +21,7 @@ int main(void)
 		}
 		if ((n % 15) == 0)
 		{
-			sum15 += n
+			sum15 += n;
 		}
 	}
 	printf("%d\n", sum3 + sum5 - sum15);
