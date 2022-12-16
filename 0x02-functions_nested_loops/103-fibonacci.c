@@ -4,9 +4,10 @@
 
 int main(void)
 {
-        long int n1 = 0, n2 = 1, nextvar = 0, i, sum2 = 0;
+        long int n1 = 0, n2 = 1, 
+	     nextvar = 0, i, sum2 = 0;
 
-        nextvar = n1 + n2;                          printf("%ld, ", nextvar);
+        nextvar = n1 + n2;
         for (i = 1; i < 50; i++)
         {
                 if (nextvar < 4000000)
