@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - main entry point
- *
  * Return: print integer
  **/
 
@@ -14,7 +13,11 @@ int main(void)
 	for (i = 1; i < 50; i++)
 	{
 		n1 = nextvar;
-		nextvar = n1 + n2;
+		nextvar = (n1 + n2);
+		if (nextvar < 0)
+		{
+			nextvar = (-1 * nextvar);
+		}
 		n2 = n1;
 		printf("%d", nextvar);
 		if (i != 49)
