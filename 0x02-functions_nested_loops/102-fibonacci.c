@@ -16,9 +16,10 @@ int main(void)
 		n1 = nextvar;
 		nextvar = n1 + n2;
 		n2 = n1;
+		printf("%d", nextvar);
 		if (i != 49)
 		{
-			printf("%d, ", nextvar);
+			printf(", ");
 		}
 	}
 	return (0);
