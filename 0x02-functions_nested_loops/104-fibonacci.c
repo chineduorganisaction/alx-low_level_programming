@@ -31,7 +31,7 @@ int main(void)
 			bk1 = bk2, bk2 = hold2;
 			printf("%lu", bk2);
 		}
-		if (i != 97)
+		if (count != 97)
 		{
 			printf(", ");
 		}
