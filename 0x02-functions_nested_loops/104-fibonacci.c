@@ -14,7 +14,7 @@ int main(void)
 		m98 = (n2 + n1);
 		n1 = n2, n2 = m98;
 		printf("%lu", n2);
-		if (i != 98)
+		if (i != 97)
 		{
 			printf(", ");
 		}
