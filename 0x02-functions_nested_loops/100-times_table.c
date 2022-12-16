@@ -22,17 +22,17 @@ void print_times_table(int n)
 			for (h = 1; h < n; h++)
 			{
 				j = (m * h);
-				if ((h / 10) > 0)
+				if ((j / 10) > 0)
 				{
-					printf("%d", (h / 10));
+					printf("%d", (j / 10));
 				}
 				else
 				{
 					printf(" ");
 				}
-				if ((h % 10) >= 0)
+				if ((j % 10) >= 0)
 				{
-					printf("%d", (h % 10));
+					printf("%d", (j % 10));
 				}
 				if (m < n)
 				{
