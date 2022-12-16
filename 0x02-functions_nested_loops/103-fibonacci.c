@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	int sum2 = 0, nextvar = 0, sum = 0;
+	long int sum2 = 0, nextvar = 0, sum = 0;
 
 	int n1 = 0, n2 = 1, i;
 
@@ -15,13 +15,13 @@ int main(void)
 		n1 = nextvar;
 		nextvar = (n1 + n2);
 		n2 = n1;
-		if (((nextvar % 2) == 0) && (nextvar < 4000000))
+		if (((nextvar % 2) == 0) && (nextvar <= 4000000))
 		{
 			sum2 = nextvar;
 		}
 	}
 	sum = sum + sum2;
-	printf("%d", sum);
+	printf("%ld", sum);
 	printf("\n");
 	return (0);
 }
