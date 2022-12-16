@@ -11,10 +11,9 @@ int main(void)
 	printf("%lu, %lu, ", n1, n2);
 	for (i = 1; i <= 98; i++)
 	{
-		n1 = m98;
 		m98 = (n2 + n1);
-		printf("%lu", m98);
-		n2 = n1;
+		n1 = n2, n2 = m98;
+		printf("%lu", n2);
 		if (i != 98)
 		{
 			printf(", ");
