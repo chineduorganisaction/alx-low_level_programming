@@ -10,7 +10,7 @@ void print_times_table(int n)
 {
 	int m, h, j;
 
-	if (n >= 157 || n <= 0)
+	if (n >= 15 || n <= 0)
 	{
 		return;
 	}
@@ -18,7 +18,7 @@ void print_times_table(int n)
 	{
 		for (m = 0; m <= n; m++)
 		{
-			printf("%d,  ", 0);
+			printf("%d, ", 0);
 			for (h = 1; h <= n; h++)
 			{
 				j = (m * h);
@@ -28,7 +28,7 @@ void print_times_table(int n)
 				}
 				else
 				{
-					printf(" ");
+					printf("  ");
 				}
 				if ((j % 10) >= 0)
 				{
@@ -36,7 +36,7 @@ void print_times_table(int n)
 				}
 				if (h <= (n - 1))
 				{
-					printf(",  ");
+					printf(", ");
 				}
 			}
 			printf("\n");
