@@ -14,10 +14,6 @@ int main(void)
 	{
 		n1 = nextvar;
 		nextvar = (n1 + n2);
-		if (nextvar < 0)
-		{
-			nextvar = (-1 * nextvar);
-		}
 		n2 = n1;
 		printf("%d", nextvar);
 		if (i != 49)
@@ -26,4 +22,4 @@ int main(void)
 		}
 	}
 	return (0);
-}	
+}
