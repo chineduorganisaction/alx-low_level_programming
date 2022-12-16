@@ -13,7 +13,7 @@ int main(void)
 	for (i = 1; i < 50; i++)
 	{
 		n1 = nextvar;
-		nextvar = (n1 + n2);
+		nextvar = (n2 + n1);
 		n2 = n1;
 		printf("%d", nextvar);
 		if (i != 49)
