@@ -10,7 +10,7 @@ int main(void)
 
 	m98 = (n1 + n2);
 	printf("%ld, ", m98);
-	for (i = 1; i <= 98; i++)
+	for (i = 1; i < 98; i++)
 	{
 		n1 = m98;
 		m98 = (n2 + n1);
