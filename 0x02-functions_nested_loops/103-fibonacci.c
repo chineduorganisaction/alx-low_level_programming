@@ -6,7 +6,7 @@
 
 int main(void)
 {
-	long int sum2 = 0, nextvar = 0, i;
+	long int sum2 = 0, nextvar = 0;
 
 	int n1 = 0, n2 = 1;
 
