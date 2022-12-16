@@ -18,8 +18,8 @@ void print_times_table(int n)
 	{
 		for (m = 0; m <= n; m++)
 		{
-			printf("%d", 0);
-			for (h = 1; h < n; h++)
+			printf("%d, ", 0);
+			for (h = 1; h <= n; h++)
 			{
 				j = (m * h);
 				if ((j / 10) > 0)
