@@ -10,9 +10,13 @@ void print_times_table(int n)
 {
 	int m, h, j;
 
-	if (n >= 15 || n <= 0)
+	if (n >= 15 || n < 0)
 	{
 		return;
+	}
+	else if (n == 0)
+	{
+		return 0;
 	}
 	else
 	{
@@ -24,11 +28,7 @@ void print_times_table(int n)
 				j = (m * h);
 				if ((j / 10) > 0)
 				{
-					printf("%d", (j / 10));
-				}
-				else if ((j / 10) < 10)
-				{
-					printf(" ");
+					printf(" %d", (j / 10));
 				}
 				else
 				{
