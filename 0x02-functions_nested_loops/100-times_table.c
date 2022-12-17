@@ -32,7 +32,7 @@ void print_times_table(int n)
 				}
 				else
 				{
-					printf(" ");
+					printf("  ");
 				}
 				if ((j % 10) >= 0)
 				{
