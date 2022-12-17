@@ -26,7 +26,11 @@ void print_times_table(int n)
 			for (h = 1; h <= n; h++)
 			{
 				j = (m * h);
-				if (((j / 10) >= 10) || ((j / 10) > 0))
+				if ((j / 10) >= 10)
+				{
+					printf("%d", (j / 10));
+				}
+				else if ((j / 10) >= 10)
 				{
 					printf("%d", (j / 10));
 				}
