@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * print_last_digit - main entry point
@@ -11,13 +12,12 @@ int print_last_digit(int n)
 	{
 		n = (-1) * n;
 		n = n % 10;
-		_putchar('0' + n);
-		return (n);
+		printf("%d%d", n, n);
 	}
 	else
 	{
 		n = n % 10;
-		_putchar('0' + n);
-		return (n);
+		printf("%d%d", n, n);
 	}
+	return (0);
 }
