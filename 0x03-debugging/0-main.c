@@ -5,8 +5,10 @@
  * Return: prints integer
  **/
 
-int main(int i)
+int main(void)
 {
+	int i;
+
 	i = 0;
 	positive_or_negative(i);
 
