@@ -1,6 +1,10 @@
 #include "main.h"
 
 /**
+ * print_array - printstring in array
+ * @a: parameter 1
+ * @n: parameter 2
+ * Return: always 0
  */
 
 void print_array(int *a, int n)
